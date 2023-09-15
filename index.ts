@@ -1,15 +1,22 @@
 
-// let myName = "Ayesha Ijaz";
-
+// let myName ="Ayesha Ijaz";
 // let todayDate = 29-7-2023;
 
-// Print the famous person name and his qoute in a message called variable.
+// Print the person name with whitespaces.
 
+ let personName: string = "\t      Ayesha Ijaz  \n";
 
-let qoute1: string = "In the middle of every difficulty lies opportunity";
-let famous_person: string = "Albert Einstein";
-let message: string = `${famous_person} once said, "${qoute1}"`;
-console.log(message);
+ console.log("name with whitespaces");
+ 
+ console.log(personName);
+ 
+// Print the person name without whitespaces.
+let strippedName = personName.trim();
 
+console.log("Name without whitespaces:");
+
+console.log(strippedName);
+
+ 
 
 
